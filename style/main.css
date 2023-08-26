@@ -1,0 +1,344 @@
+@font-face {
+    font-family: "roboto";
+    src: url("../Myriad\ Pro\ Bold.ttf");
+}
+@font-face {
+    font-family: "italok";
+    src: url("../Myriad\ Pro\ Italic.ttf");
+}
+@font-face {
+    font-family: "ppwodland";
+    src: url("../ppwoodland-bold.otf");
+}
+@font-face {
+    font-family: "ultard";
+    src: url("../ppwoodland-ultralight.otf");
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.sayt{
+    width: 100%;
+    height: 4000px;
+   
+}
+.header{
+    width: 100%;
+    height: auto;
+    
+background: #FEC77E;
+ 
+}
+.clear  
+{
+    clear: both;
+}
+.header__tepa{
+    width: 100%;
+
+    border: none;
+    border-bottom: 1px solid black;
+
+}
+.card{
+    max-width: 33%;
+    width: 100%;
+    height: auto;
+    font-family: "roboto";
+    float: left;
+}
+.card:nth-child(1) ul{
+    list-style: none;
+}
+.card:nth-child(1) ul li{
+    float: left;
+    width: 20%;
+}
+.card:nth-child(1) ul li a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 40px 0px;
+    color: black;
+    font-size: 20px;
+}
+.card:nth-child(2) h1{
+    color:  #CC2A41;
+    font-size: 60px;
+    text-align: center;
+    padding: 16px 0px;
+    
+}
+img{
+    width: 100%;
+}
+.card:nth-child(3){
+    padding: 25px 0px;
+}
+.tugma{
+    width: 60%;
+    height: 50px;
+    background-color: 
+    #CC2A41;
+    float: right;
+    font-family: "roboto";
+    margin-right: 40px;
+    color: white;
+    outline: none;
+        
+}
+.header_tayp{
+    width: 40%;
+    height: auto;
+    padding-bottom: 30px;
+text-align: center;
+    margin: auto;
+    font-size: 60px;
+    font-family: "roboto";
+    color: 
+    #CC2A41;
+}
+.header__img{
+    width: 80%;
+    height: auto;
+    margin: auto; 
+}
+.header__card{
+    width: 25%;
+    height: auto;
+    float: left;
+}
+
+
+.header h1{
+    font-family: "roboto";
+    text-align: center;
+  padding: 50px 0px;
+    color: #CC2A41;
+}
+.header__navbar{
+    width: 100%;
+    height: auto;
+    padding-bottom: 100px;
+    font-family: "ppwodland";
+}
+.header__navbar ul{
+    list-style: none;
+}
+.header__navbar ul li {
+    float: left;
+    width: 16%;
+}
+.header__navbar ul li a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    line-height: 100px;
+    color: black;
+    font-size: 25px;
+}
+.content{
+    width: 100%;
+height: auto;
+font-family: "ultard";
+}
+.card_in{
+    width: 100%;
+}
+.card__desc{
+    width: 70%;
+    float: left;
+}
+.card__img{
+    width:29%;
+    float: left;
+ 
+}
+.pastki__blok{
+    padding-bottom: 50px;
+}
+.card__desc h1{
+    font-size: 40px;
+    color: #CC2A41;
+    padding: 40px 30px;
+}
+.card__desc h3{
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 115px;
+}
+.dunyo{
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-color: #CC2A41;
+    margin-top: 20px;
+    font-family: "ultard";
+}
+.urta{
+    width: 100%;
+    height: 800px;
+background: url("../images/muzqaymoqlar.png") no-repeat center center /cover ;
+
+}
+.urta__sing{
+    width: 100%;
+    height: 300px;
+    font-family: "roboto";
+    text-align: center;
+}
+.urta__sing h1{
+    font-size: 80px;
+    padding-top: 30px;
+}
+font{
+    color:#CC2A41;
+}
+.urta__sing p{
+    padding: 30px 0px;
+    font-size: 30px;
+    font-family: "roboto";
+}
+.pastki__blok{
+    width: 100%;
+    height:auto;
+     background-color: #FEC77E;
+}
+.pastki__img{
+    width: 40%;
+    float:left;
+}
+.pastki__sie{
+    width: 49%;
+    font-family: "roboto";
+    float: left;
+  padding-top: 100px;
+}
+.pastki__sie h1{
+    font-size: 70px;
+    color: #CC2A41;
+}
+.pastki__sie p{
+    font-size: 30px;
+ padding-top: 10px;
+}
+.pastki__bg{
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+    background-color: #CC2A41;
+    font-family: "roboto";
+}
+
+.pastki__bg .desc{
+    font-size: 70px;
+    color: white;
+   text-align: center;
+  padding-top: 160px;
+  
+}
+.pastki__bg p{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.pastki__rasm{
+    width: 80%;
+    height: auto;
+ 
+padding-bottom: 120px;
+    margin: auto;
+}
+.img{
+    width: 30%;
+    height: auto;
+
+  
+    float: left;
+    margin-left: 20px;
+  
+}
+.look{
+    width: 100%;
+    border: 1px solid black;
+    height: auto;
+    background-color: #FEC77E;
+    padding-bottom: 100px;
+}
+.look1{
+    width: 80%;
+    height: auto;
+    margin: auto;
+  border: none;
+  border-bottom: 1px solid black;
+}
+.look1 h1{
+    font-size: 125px;
+    color: #CC2A41;
+    text-align: center;
+    padding-top: 200px;
+
+}
+.kl{
+    width: 80%;
+    height: auto;
+    
+margin: auto;
+padding-top: 50PX;
+}
+.mitti{
+    width: 47%;
+    height: auto;
+    float: left;
+}
+
+.mitti i{
+    display: block;
+padding-top: 50px;
+    text-align: center;
+    font-size: 60px;
+    color: #CC2A41;
+}
+.mitti h1{
+    text-align: center;
+    font-size: 80px;
+    color: #CC2A41;
+    padding-top: 20px;
+}
+.mitti h3{
+    color: #CC2A41;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 40px;
+}
+.mitti h4{
+    padding-top: 30px;
+    color:black;
+text-align: center  ;
+font-size: 25px;
+}
+.ded{
+    width: 100%;
+ color: white;
+
+}
+.ded1{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    font-size: 50px;
+    color: white;
+    text-align: center  ;
+}
+.pp{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: 30px;
+}

@@ -1,0 +1,130 @@
+@media screen and (max-width:1366px)
+{
+    
+}
+@media screen and (max-width:1200px)
+{
+  
+}
+
+@media screen and (max-width:992px)
+{
+    .header_tayp{
+        font-size: 40px;
+    }
+    .card__img{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    .card__desc{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .pastki__sie h1{
+        font-size: 40px;
+    }
+    .pastki__sie p{
+        font-size: 25px;
+    }
+    .pastki__bg .desc{
+        font-size: 50px;
+    }
+    .pastki__bg p{
+        font-size: 20px;
+    }
+    .img{
+        margin-left: 10px;
+    }
+    .look1 h1{
+        font-size: 80px;
+    }
+    .mitti{
+        float: none;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .ded1{
+        position: absolute;
+        left: 50px;
+        top: 100px;
+    }
+    .pastki__sie {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .pastki__img{
+        width: 100%;
+        float: none;
+    }
+    .header__navbar ul li{
+        float: none;
+        width: 100%;
+    }
+    .card:nth-child(1) ul li{
+        float: none;
+        width: 100%;
+        
+    }
+    .card:nth-child(1) ul li a{
+        padding: 20px 0px;
+    }
+    .card__desc h3{
+        padding-bottom: 30px;
+    }
+    .card:nth-child(2) h1{
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width:576px)
+{
+    .header_tayp{
+        font-size: 25px;
+       
+    }
+    .card:nth-child(2) h1{
+        font-size: 40px;
+    }
+    .ded1{
+        position: absolute;
+        left: 0px;
+        top: 100px;
+    }
+    .urta__sing h1{
+        font-size: 50px;
+       
+    }
+    .pastki__bg .desc{
+        font-size: 30px;
+    }
+    .mitti h1{
+        font-size: 50px;
+    }
+    .img{
+        float: none;
+        width: 100%;
+    }
+    .ded1{
+        font-size: 25px;
+    }
+    .pastki__bg p{
+        font-size: 16px;
+    }
+    .header__card{
+        float: none;
+        width: 100%;
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width:320px)
+{
+    
+}
+
+
+
+
